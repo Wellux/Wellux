@@ -9,7 +9,7 @@
 
 <p align="center">
   <b>Mine remembers last week, answers in my chats and stops when I say stop.</b><br>
-  Agent builder from Nuremberg · founder of <a href="https://well-ux.com">Wellux</a>
+  Agent builder and teacher from Nuremberg · founder of <a href="https://well-ux.com">Wellux</a> · <i>context is all you need</i>
 </p>
 
 <p align="center">
@@ -38,6 +38,12 @@ Here is what a scan of a perfectly normal digital life turns up:
 
 Sound familiar? Then you are exactly who I am building this for.
 
+### Context is all you need
+
+In 2017, *Attention Is All You Need* gave us the transformer, and the models have been getting brilliant ever since. What they still lack is **you**: your files, your accounts, your history, the way you work. Hand a good model the full context of a life or a company, and it stops being a chatbot and starts being a colleague.
+
+That is the whole bet behind myOS: **everyone should be able to build the most they can imagine, with the technology they already own and the context of all their data and accounts.** Not only companies with an IT department. You, with your laptop and your phone.
+
 ### myOS · one brain for your digital life
 
 <table>
@@ -63,6 +69,7 @@ Sound familiar? Then you are exactly who I am building this for.
 - **Your agents, your rules.** Claude Code, Codex, Hermes and friends share one memory and one set of guardrails, with approvals and a real kill switch.
 - **Runs where you live.** On your own Mac, reachable from your phone, your watch and your voice.
 - **Open source, for everyone.** Not a SaaS, not a black box. You own the data, the code and the off button.
+- **A game on top.** Learning a new technology sticks when it plays like one. We are building a game around myOS: you level up for verified results, never for spending money.
 
 > [!NOTE]
 > I am building myOS in the open and sharing it with every human and their agents on **1 January 2027 at 5 pm CET**, with a live launch on [YouTube](https://www.youtube.com/@blockchainhash). Friends test the first build from 29 November, and I stream the build on the way there.
@@ -86,7 +93,11 @@ Sound familiar? Then you are exactly who I am building this for.
 
 My ikigai fits in one sentence: **use advanced technology to give people everywhere an easier, calmer life.** Less searching, less copy and paste, fewer "where did I put that", more time for the people and things that matter.
 
-I was early in Bitcoin. It taught me that a system can belong to its users. Then AI arrived and wanted to know everything about you. Fine, but an agent that knows that much should answer to you, keep its memory on your machine and ask before it does anything irreversible. myOS is how I build that, for everyone, not only for companies with an IT department.
+I was early in Bitcoin. It taught me that a system can belong to its users, and that rules written in code apply to everyone the same way. That is the idea I keep chasing: **build new systems in which injustice and inequality become as impossible as we can make them, so everyone gets a real chance.**
+
+Then AI arrived and wanted to know everything about you. Fine, but an agent that knows that much should answer to you, keep its memory on your machine and ask before it does anything irreversible. myOS is how I build that, for everyone, not only for companies with an IT department.
+
+I am drawn to technology outside the norm. Blockchain and AI hooked me, each in the middle of its boom. Quantum computing is the next one on my list; I know far too little about it yet, which is exactly the fun part. And I love teaching: nothing beats the moment someone builds their first agent and sees what is possible now. Most of my evenings end in a conversation about where all of this is going.
 
 ### How I build
 
@@ -103,8 +114,7 @@ I was early in Bitcoin. It taught me that a system can belong to its users. Then
 | Project | What it does | Status |
 |:---|:---|:---|
 | **myOS** | The open-source operating system for your digital life | launches 01.01.2027 |
-| **[awesome-agent-os](https://github.com/Wellux/awesome-agent-os)** | Open-source building blocks for your own AI operating system, sorted by the job they do | public |
-| **[awesome-ai-creator-stack](https://github.com/Wellux/awesome-ai-creator-stack)** | Open-source voice, video, image and design tools for creators who build with AI | public |
+| **Wellux awesome lists** | 3,260 AI repos in nine lists, sorted by the job they do: [agent OS](https://github.com/Wellux/awesome-agent-os) · [coding agents](https://github.com/Wellux/awesome-coding-agents) · [agent skills](https://github.com/Wellux/awesome-agent-skills) · [MCP connectors](https://github.com/Wellux/awesome-mcp-connectors) · [agent memory](https://github.com/Wellux/awesome-agent-memory) · [agent engineering](https://github.com/Wellux/awesome-agent-engineering) · [AI models](https://github.com/Wellux/awesome-ai-models) · [creator stack](https://github.com/Wellux/awesome-ai-creator-stack) · [AI at work](https://github.com/Wellux/awesome-ai-at-work) | public |
 | **wellux-design** | The kit behind every graphic on this page: light, dark, motion, reduced motion | private |
 | *11 more private blocks* | Agents, cockpit, skills, pipes | opening one block at a time |
 
@@ -117,7 +127,13 @@ I was early in Bitcoin. It taught me that a system can belong to its users. Then
 
 ### Work with me
 
-I help small and mid-sized companies build their own AI operating system: start small, keep the data at home, automate what eats your week. More on [well-ux.com](https://well-ux.com), or [book a call](https://calendly.com/wellux).
+| For | What we do together |
+|:---|:---|
+| **Small and mid-sized companies** | Your own AI operating system: start small, keep the data at home, automate what eats your week. |
+| **Consultancies and executive teams** | Sparring on AI strategy and agent architecture with someone who runs his own AI OS every single day: what works, what breaks, what it costs. |
+| **Everyone else** | Learn to put AI to work with your own data, at your own pace. myOS is free and open source from 1 January 2027. |
+
+More on [well-ux.com](https://well-ux.com), or [book a call](https://calendly.com/wellux).
 
 <details>
 <summary><b>Are you an agent?</b> Read this first.</summary>
@@ -127,6 +143,7 @@ I help small and mid-sized companies build their own AI operating system: start 
 human: Marco Mengele
 based_in: Nuremberg, Germany
 does: builds myOS, an open-source operating system for one person and their agents
+believes: context is all you need
 company: Wellux, AI for small and mid-sized companies
 reach_out: https://well-ux.com
 release: 2027-01-01T17:00+01:00
@@ -146,7 +163,7 @@ house_rules:
 2. "Shaping the future one block at a time" started as a blockchain joke. It became a building method.
 3. My personal agent is called Marco Nova. It answers faster than I do, and it is more polite before coffee.
 4. Every graphic on this page is code. No design tool and no stock photo were harmed.
-5. Padel, music and a good Franconian beer keep the human in the loop.
+5. Calisthenics, any game with a ball and lately a lot of padel keep the human in the loop. Then sauna. Nothing beats sauna, except maybe a beach.
 
 </details>
 
