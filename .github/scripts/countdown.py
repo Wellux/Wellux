@@ -63,11 +63,10 @@ def countdown(t: dict, today: dt.date, fonts: str) -> str:
         p.append(f'<clipPath id="od{i}"><rect x="{x}" y="64" width="80" height="112" rx="10"/></clipPath>')
         strip = "".join(f'<text class="f-PlexB" x="{x+40}" y="{150 + n*112}" text-anchor="middle" font-size="84" '
                         f'fill="{t["ink"]}">{n % 10}</text>' for n in range(0, 10 + target + 1))
-        spins = 10 + target
-        p.append(f'<g clip-path="url(#od{i})"><g transform="translate(0 {-spins*112})">'
-                 f'<animateTransform attributeName="transform" type="translate" from="0 0" to="0 {-spins*112}" '
-                 f'begin="{.3+i*.25:.2f}s" dur="{1.6+i*.3:.1f}s" fill="freeze" calcMode="spline" keyTimes="0;1" '
-                 f'keySplines=".15 .6 .2 1"/>{strip}</g></g>')
+        spins = 10 + target  # roll once round, land on the digit; the transform attribute is the resting frame
+        p.append(f'<style>@keyframes od{i}{{from{{transform:translateY(0)}}to{{transform:translateY({-spins*112}px)}}}}'
+                 f'.od{i}{{animation:od{i} {1.6+i*.3:.1f}s cubic-bezier(.15,.6,.2,1) {.3+i*.25:.2f}s both}}</style>'
+                 f'<g clip-path="url(#od{i})"><g class="od{i}" transform="translate(0 {-spins*112})">{strip}</g></g>')
         p.append(f'<path d="M{x} 120 H{x+80}" stroke="{t["line"]}" stroke-width="1.5"/>')
     p.append(f'<text class="f-PlexS ri" style="{d(1.8)}" x="230" y="112" font-size="30" fill="{t["ink"]}">days</text>')
     p.append(f'<text class="f-PlexR ri" style="{d(1.9)}" x="230" y="146" font-size="17" fill="{t["ink2"]}">'
