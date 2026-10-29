@@ -1,0 +1,26 @@
+# One block per day: redraws the myOS countdown on github.com/Wellux shortly after midnight in Nuremberg.
+name: countdown
+on:
+  schedule:
+    - cron: "5 23 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: countdown
+  cancel-in-progress: false
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+      - name: Redraw the countdown for today in Nuremberg
+        run: python3 .github/scripts/countdown.py --today "$(TZ=Europe/Berlin date +%F)"
+      - name: Commit when a block was added
+        run: |
+          if git diff --quiet; then echo "no change"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "chore: one more block on the myOS countdown"
+          git push
