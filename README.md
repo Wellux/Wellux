@@ -9,7 +9,7 @@
 
 <p align="center">
   <b>Mine remembers last week, answers in my chats and stops when I say stop.</b><br>
-  Agent builder and teacher from Nuremberg · founder of <a href="https://well-ux.com">Wellux</a> · <i>context is all you need</i>
+  Agent builder and teacher from Nuremberg · <a href="https://well-ux.com">Wellux</a> since 2020 · <i>context is all you need</i>
 </p>
 
 <p align="center">
