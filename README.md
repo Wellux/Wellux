@@ -1,7 +1,7 @@
 <a href="https://well-ux.com">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/profile/hero-dunkel.svg">
-    <img alt="From leak to solution. Notes, mail, files, chats and accounts flow into one block called myOS, and from there to your agents." src="assets/profile/hero-hell.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/profile/banner-wellux-dunkel.png">
+    <img alt="Wellux. AI and agents, made clear. Step by step. Build log at well-ux.com" src="assets/profile/banner-wellux-hell.png" width="100%">
   </picture>
 </a>
 
