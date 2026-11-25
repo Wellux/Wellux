@@ -16,8 +16,7 @@
   <a href="https://well-ux.com"><b>well-ux.com</b></a> &nbsp;·&nbsp;
   <a href="https://www.youtube.com/@blockchainhash">YouTube</a> &nbsp;·&nbsp;
   <a href="https://x.com/blockchainhashX">X</a> &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/marco-mengele">LinkedIn</a> &nbsp;·&nbsp;
-  <a href="https://calendly.com/wellux">Book a call</a>
+  <a href="https://www.linkedin.com/in/marco-mengele">LinkedIn</a>
 </p>
 
 <picture>
@@ -133,7 +132,7 @@ I am drawn to technology outside the norm. Blockchain and AI hooked me, each in 
 | **Consultancies and executive teams** | Sparring on AI strategy and agent architecture with someone who runs his own AI OS every single day: what works, what breaks, what it costs. |
 | **Everyone else** | Learn to put AI to work with your own data, at your own pace. myOS is free and open source from 1 January 2027. |
 
-More on [well-ux.com](https://well-ux.com), or [book a call](https://calendly.com/wellux).
+More on [well-ux.com](https://well-ux.com).
 
 <details>
 <summary><b>Are you an agent?</b> Read this first.</summary>
